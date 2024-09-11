@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&family=Merriweather:wght@400;700&family=Oswald:wght@400;700&family=Nunito:wght@400;700&family=Bebas+Neue&family=Fira+Sans:wght@400;700&family=Pacifico&family=Dancing+Script&family=Abril+Fatface&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+    <script src="./main.js"></script>
+
+</head>
+
+<body>
+
+    
+    <header>
+        <div class="logo">
+            <img src="Car.png" alt="Logo Wypożyczalni">
+   
+        </div>
+        <h1>EliteCar Rentals</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fleet</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Immerse yourself in an extraordinary collection of our cars! </h2>
+        <p>
+            <table id="tabela">
+                <tr>
+                    <th>Brand</th>
+                    <th>Model</th>
+                    <th>Year</th>
+                    <th>VIN</th>
+                    <th>Color</th>
+                </tr>
+            </table>
+        </p>
+    </section>
+
+    <section>
+        <h2>Aviability of our Cars by Brands</h2>
+        <p><canvas id="bar"></canvas></p>
+    </section>
+
+    <section>
+        <h2>Availability of our Cars by Colors</h2>
+        <p><canvas id="pie"></canvas></p>
+        <h5>(You can cross out the colors you don't like)</h5>
+      
+    </section>
+
+    <section>
+        <h2>Availability of our Cars by Production Year</h2>
+        <p><canvas id="line"></canvas></p>
+    </section>
+
+    <footer>
+        <p>Visit our car showroom for more expirience!</p>
+    </footer>
+
+</body>
+
+</html>
